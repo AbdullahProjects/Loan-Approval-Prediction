@@ -1,5 +1,5 @@
 # About this Loan Approval Prediction App:
-Here is the live preview ➡️ https://akk-loan-approval-prediction.streamlit.app/
+Here is the live preview ➡️ <a href="https://akk-loan-approval-prediction.streamlit.app/" target="_blank">Click Here for Live Demo</a>
 
 #### This is Machine Learning Project based on classification Problem in which Prediction is based on Yes or No. Means Whether a person is eligibile or not eligible for the loan approval.
 
