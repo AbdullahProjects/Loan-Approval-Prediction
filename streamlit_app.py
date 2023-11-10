@@ -6,8 +6,8 @@ pipe = pk.load(open("imported/pipeline.pkl","rb"))
 df = pk.load(open("imported/dataframe.pkl","rb"))
 
 # title
-st.title("Loan Eligibility Check")
-st.write("Welcome to Loan Eligibility Check app. This app allows banks to check whether they need to give loan to peoples or not based on following features.")
+st.title("Loan Approval Prediction")
+st.write("Welcome to Loan Approval Prediction app. This app allows banks to check whether they need to give loan to peoples or not based on following features.")
 st.header("Feature Selection")
 
 # gender 1:Male , 0:Female
@@ -69,6 +69,7 @@ if st.button("Check Loan Eligibility"):
         ans="Not Eligible"
     else:
         ans="Eligible"
+
     st.header(f"{ans} for Loan.")
 
 
@@ -78,4 +79,4 @@ st.write("This app provides estimates guesses based on the dataset and machine l
 
 # Contact Information or About the Developer (Optional)
 st.header("About the Developer")
-st.write("This app was developed by Abdullah_Khan_Kakar. You can contact me at abdullahkhan4465917@gmail.com for questions or feedback.")
+st.write("This app was developed by Abdullah_Khan_Kakar. You can contact him at abdullahkhan4465917@gmail.com for any questions or feedback.")
